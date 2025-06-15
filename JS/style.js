@@ -88,28 +88,28 @@ function displaySectionHoroscope(horoscopes, index) {
   ).innerHTML = `${horoscopes[indexNext].signe} <span>${horoscopes[indexNext].date}</span>`;
 }
 
-// // Sélectionner la flèche droite
+// Sélectionner la flèche droite
 // const arrowRight = document.querySelector(".arrow-right");
 // arrowRight.addEventListener("click", () => {
 //   index = index >= horoscope.length - 1 ? 0 : index + 1;
 //   populateDatas();
 // });
 
-// // Sélectionner la flèche gauche
+// Sélectionner la flèche gauche
 // const arrowLeft = document.querySelector(".arrow-left");
 // arrowLeft.addEventListener("click", () => {
 //   index = index === 0 ? horoscope.length - 1 : index - 1;
 //   populateDatas();
 // });
 
-// // Sélectionner le signe de droite dans la section du haut et ajouter un eventlistener
+// Sélectionner le signe de droite dans la section du haut et ajouter un eventlistener
 // const rightHoroscope = document.querySelector(".right-horoscope");
 // rightHoroscope.addEventListener("click", () => {
 //   index = index + 1 > horoscope.length - 1 ? 0 : index + 1;
 //   populateDatas();
 // });
 
-// // Sélectionner le signe de gauche dans la section du haut et ajouter un eventlistener
+// Sélectionner le signe de gauche dans la section du haut et ajouter un eventlistener
 // const leftHoroscope = document.querySelector(".left-horoscope");
 // leftHoroscope.addEventListener("click", () => {
 //   index = index === 0 ? horoscope.length - 1 : index - 1;
@@ -150,5 +150,3 @@ function populateDatas() {
 
   displaySectionHoroscope(horoscope, index);
 }
-
-//*
